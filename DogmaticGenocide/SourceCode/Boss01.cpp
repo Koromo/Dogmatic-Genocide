@@ -726,7 +726,7 @@ void barrage05Easy01(BarrageCoro_t::caller_type& yield){
 			}
 
 			angle += 0.16f;
-			WAIT(30 - loop);//ml@amusement-makers.org
+			WAIT(30 - loop);
 		}
 
 		WAIT(45 - loop * 2);
@@ -845,7 +845,7 @@ void barrage05Normal01(BarrageCoro_t::caller_type& yield){
 			}
 
 			angle += 0.16f;
-			WAIT(10 - loop);//ml@amusement-makers.org
+			WAIT(10 - loop);
 		}
 
 		WAIT(30 - loop * 2);
@@ -967,7 +967,7 @@ void barrage05Hard01(BarrageCoro_t::caller_type& yield){
 			}
 
 			angle += 0.16f;
-			WAIT(8 - loop);//ml@amusement-makers.org
+			WAIT(8 - loop);
 		}
 
 		WAIT(25 - loop * 2);
